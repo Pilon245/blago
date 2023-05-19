@@ -125,6 +125,10 @@ export class AuthController {
 
     return this.authService.createUser(inputModel);
   }
+  @Get()
+  async test() {
+    return 'Okkkkk';
+  }
 
   // @Post('registration-confirmation')
   // @HttpCode(204)
