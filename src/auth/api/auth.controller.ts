@@ -127,7 +127,7 @@ export class AuthController {
   }
   @Get()
   async test() {
-    return 'Okkkdkk';
+    return 'Okkkkk';
   }
 
   // @Post('registration-confirmation')
